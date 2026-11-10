@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -46,7 +46,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Content */}
-      <div className="mx-auto grid max-w-[1480px] grid-cols-1 gap-12 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-12 lg:py-20">
+      <div className="mx-auto grid max-w-370 grid-cols-1 gap-12 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:px-12 lg:py-20">
 
         {/* Left: Contact Information */}
         <div>
